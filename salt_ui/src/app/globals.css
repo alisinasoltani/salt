@@ -4,15 +4,25 @@
 
 @font-face {
     font-family: 'marge';
-    src: url('../app/fonts/MergeOne-Regular.ttf');
+    src: url('../../public/fonts/MergeOne-Regular.ttf');
 }
 
 @font-face {
     font-family: 'npi';
-    src: url('../app/fonts/NPIBITA.TTF');
+    src: url('../../public/fonts/NPIBITA.TTF');
 }
 
 @font-face {
     font-family: 'npib';
-    src: url('../app/fonts/NPIBITABOLD.TTF');
+    src: url('../../public/fonts/NPIBITABOLD.TTF');
+}
+
+.nipb {
+    font-family: 'npib';
+}
+.nip {
+    font-family: 'npi';
+}
+.merge {
+    font-family: 'merge';
 }
